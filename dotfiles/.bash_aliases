@@ -7,3 +7,8 @@ export PS1='\[\e[32m\]\u@\h\[\e[m\]:\[\e[34m\]\w\[\e[31m\]$(__git_ps1 " (%s)")\e
 
 # Usando para servir a documentação Marckdown
 alias mdweb="npx markserv -a 0.0.0.0 ."
+
+alias t="tmux"
+alias n="nvim"
+
+alias reload="source ~/.bashrc"
